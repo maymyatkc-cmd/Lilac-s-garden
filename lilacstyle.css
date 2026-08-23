@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: rgb(83, 82, 82);
+    line-height: 1.6;
+    background-color: white;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: lightslategray;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+a {
+    color: lightslategray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* header */
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 24px;
+
+}
+.nav-list a{
+    color: rgb(161, 122, 122);
+    font-weight: 500;
+}
+.main-header {
+  background-image: url('download\ \(14\).jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 200px; 
+}
+.site-header {
+    background-color: white;
+    border-bottom: solid white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 165px;
+}
+
+.site-header {
+    background-color: white;
+    border-bottom: solid white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 165px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(99, 115, 131);
+}
+
+.navibar {
+    background: rgb(179, 199, 200);
+    overflow: hidden;
+}
+
+.navibar a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 20px;
+}
+
+.navibar a:hover {
+    background: rgb(139, 155, 171);
+}
+
+
+.short-des {
+    background-color: rgb(234, 243, 250);
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.short-des h1 {
+    font-size: 2.4rem;
+    margin-bottom: 4px;
+}
+
+.short-des.title {
+    font-size: 1.2rem;
+    color: rgb(119, 143, 153);
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.short-des.summary {
+    max-width: 640px;
+    margin: 0 auto 20px;
+    color: rgb(83, 82, 82);
+}
+
+.location {
+    color: rgb(83, 82, 82);
+    font-size: 0.9rem;
+}
+
+.profile-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+    object-fit: cover;
+    border: 2px solid rgb(221, 221, 250);
+}
+
+.welcome {
+    width: 85%;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px gray;
+    line-height: 1.8;
+    text-align: center;
+}
+
+h2 {
+    color: lightslategray;
+    margin-bottom: 20px;
+}
+.skill-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.skill-list li{
+    background-color: rgb(229, 229, 248) ;
+    color: slategray;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    border: 1px solid  lightslategray ;
+}
+
+.music-card {
+  width:330px;
+  background: rgb(99, 113, 126);
+  color: #fff;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  font-family: sans-serif;
+  margin-left: 300px;
+}
+.song-image img {
+  width: 100%;
+  border-radius: 8px;
+}
